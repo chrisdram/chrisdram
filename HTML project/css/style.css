@@ -1,0 +1,155 @@
+    
+    
+/*NAV BAR SECTION--------------------*/
+    *{box-sizing: border-box;}
+    nav {
+        background-color: navy;
+    }
+
+    .logo, .menu {
+        display: inline-block;
+        margin: 20px;
+        color: aliceblue;
+        font-family:'Times New Roman', Times, serif;
+        
+    
+        
+    }
+    .logo{
+        font-size: 40px;
+        padding-left: 25px;
+
+    }
+    .menu {
+        float:right;
+
+    }
+
+    .menu ul {
+        list-style:none;
+        padding-left: 0px;
+        margin: 10px;
+    }
+    .menu ul li {
+        display: inline-block;
+        margin-right: 25px;
+        font-size: 25px;
+        color: aliceblue;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        padding: 10px 5px 10px 5px;
+        color:white;
+    }
+
+    .menu ul li a:hover {
+        background-color: navy;
+        color:aliceblue;
+        transition: all 0.5s ease;
+
+    }
+   
+    /*--------------------ABOUT ME --------*/
+    }
+    
+    .hero-container {
+        padding-left: 40%;
+        
+    }
+    .btn-PHOTOS {
+        background-color:lightblue;
+        display: inline-block;
+        padding: 10px 25px;
+        border-radius: 20px;
+        color:black;
+        text-decoration: none;
+    }
+    .btn-PHOTOS:hover {
+        background-color: white;
+        color: navy;
+        transition: all 0.5s;
+
+    }
+
+
+    .btn-CONTACT{
+        background-color: lightblue;
+        display: inline-block;
+        padding: 10px 25px;
+        border-radius: 20px;
+        color:black;
+        text-decoration: none;
+    }
+    .btn-CONTACT:hover {
+        background-color: white;
+        color: navy;
+        transition: all 0.5s;
+    
+    }
+
+    /*------------ABOUT ME SECTION-------------*/
+    .about-me {
+        width: 100%;
+    
+    }
+    .about-me:after {
+        content:'';
+        display: block;
+        clear:both;
+    }
+    .about-me h2 {
+        color: black;
+        font: caption;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    .about-me .col-left, .about-me .col-right {
+        width: 50%;
+        float: left; 
+        padding-bottom: 1%;
+    }
+    
+    
+    .about-me .col-left img {
+        max-width: 100%;
+    }
+    .about-me .col-left {
+        padding-left: 2.5%;
+        padding-right:5%;
+        padding-top: 2.5%;
+        
+    }
+    .about-me .col-right {
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        padding-top: 10%;
+    }
+
+    
+    /*<------------- MY SKILLS SECTION----------------> */
+
+    .my-skills {
+    background-color: bisque;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}   .my-skills:after{
+        content: '';
+        display: block;
+        clear: both;
+}
+
+    .my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right{
+    width: 50%;
+    display: inline-block;
+    float:left;
+
+}
+    .my-skills i {
+
+    }
+
+     
+    
